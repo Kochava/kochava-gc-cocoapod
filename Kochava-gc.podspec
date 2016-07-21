@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'TrackAndAd.h'
   s.ios.vendored_library = 'libTrackAndAd.a'
-  s.frameworks   = 'UIKit', 'Foundation', 'AdSupport', 'iAd', 'CoreLocation', 'GameKit'
+  s.frameworks   = 'UIKit', 'Foundation', 'AdSupport', 'iAd', 'CoreLocation', 'SystemConfiguration', 'SafariServices', 'GameKit'
   s.requires_arc = true
 
   s.preserve_paths = 'libTrackAndAd.a'
