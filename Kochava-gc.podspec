@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  version = "20160907"
+  version = "20160907.1"
 
   s.name         = "Kochava-gc"
   s.version      = version
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'TrackAndAd.h'
   s.ios.vendored_library = 'libTrackAndAd.a'
-  s.frameworks   = 'UIKit', 'Foundation', 'AdSupport', 'iAd', 'CoreLocation', 'SystemConfiguration', 'SafariServices', 'GameKit'
+  s.frameworks   = 'UIKit', 'Foundation', 'AdSupport', 'iAd', 'CoreLocation', 'SystemConfiguration', 'GameKit'
   s.requires_arc = true
 
   s.preserve_paths = 'libTrackAndAd.a'
