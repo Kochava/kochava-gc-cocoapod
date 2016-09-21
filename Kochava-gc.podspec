@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  version = "20160907.1"
+  version = "20160921"
 
   s.name         = "Kochava-gc"
   s.version      = version
